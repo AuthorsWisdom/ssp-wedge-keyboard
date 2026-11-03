@@ -1,0 +1,63 @@
+** Drc report for ssp-wedge-kb.kicad_pcb **
+** Created on 2026-11-03T14:02:35-0600 **
+
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(21.0000 mm, 20.0000 mm): Segment on Edge.Cuts
+    @(31.3000 mm, 21.6500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(21.0000 mm, 20.0000 mm): Segment on Edge.Cuts
+    @(40.7000 mm, 21.6500 mm): Segment of J1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 15 Footprint errors **
+[net_conflict]: No corresponding pin found in schematic.
+    Local override; warning
+    @(246.0000 mm, 26.4000 mm): PTH pad MP [GND] of ENC1
+[net_conflict]: No corresponding pin found in schematic.
+    Local override; warning
+    @(246.0000 mm, 37.6000 mm): PTH pad MP [GND] of ENC1
+[net_conflict]: Pad missing net given by schematic (unconnected-(J1-SBU1-PadA8)).
+    Local override; warning
+    @(34.7500 mm, 27.6950 mm): Pad A8 [<no net>] of J1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(J1-SBU2-PadB8)).
+    Local override; warning
+    @(37.7500 mm, 27.6950 mm): Pad B8 [<no net>] of J1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO19-Pad30)).
+    Local override; warning
+    @(84.2000 mm, 28.5625 mm): Pad 30 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO20-Pad31)).
+    Local override; warning
+    @(83.8000 mm, 28.5625 mm): Pad 31 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO21-Pad32)).
+    Local override; warning
+    @(83.4000 mm, 28.5625 mm): Pad 32 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO22-Pad34)).
+    Local override; warning
+    @(82.6000 mm, 28.5625 mm): Pad 34 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO23-Pad35)).
+    Local override; warning
+    @(82.2000 mm, 28.5625 mm): Pad 35 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO24-Pad36)).
+    Local override; warning
+    @(81.8000 mm, 28.5625 mm): Pad 36 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO25-Pad37)).
+    Local override; warning
+    @(81.4000 mm, 28.5625 mm): Pad 37 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO26_ADC0-Pad38)).
+    Local override; warning
+    @(81.0000 mm, 28.5625 mm): Pad 38 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO27_ADC1-Pad39)).
+    Local override; warning
+    @(80.6000 mm, 28.5625 mm): Pad 39 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO28_ADC2-Pad40)).
+    Local override; warning
+    @(80.2000 mm, 28.5625 mm): Pad 40 [<no net>] of U1 on F.Cu
+[net_conflict]: Pad missing net given by schematic (unconnected-(U1-GPIO29_ADC3-Pad41)).
+    Local override; warning
+    @(79.8000 mm, 28.5625 mm): Pad 41 [<no net>] of U1 on F.Cu
+
+** End of Report **

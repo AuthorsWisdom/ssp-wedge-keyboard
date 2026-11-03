@@ -1,0 +1,6 @@
+(version 1)
+# 0402 GND pads in the RP2040 area are boxed in by tracks, so one thermal spoke is accepted
+# (each pad is also tied in on the other layer/track). Avoids tombstoning that solid fill could cause.
+(rule "single_spoke_ok"
+  (constraint min_resolved_spokes 1)
+  (condition "A.Type == 'Pad' && A.NetName == 'GND'"))

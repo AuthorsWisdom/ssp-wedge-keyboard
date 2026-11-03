@@ -1,0 +1,2 @@
+Designator,Value,Footprint,Side,Type,Note
+J2,SWD,PinHeader_1x03_P2.54mm_Vertical,top,DNP,DNP - DO NOT FIT: a fitted SWD header collides with the case plate (Wedge case v1.1). Use BOOT/RESET via the plate poke holes; pogo onto the pads only if SWD is ever needed.

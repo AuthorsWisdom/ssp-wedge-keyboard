@@ -1,0 +1,13 @@
+[target.'cfg(all(target_arch = "arm", target_os = "none"))']
+# Flash over USB mass storage: hold BOOT, tap RESET, then `cargo run --release`
+runner = "elf2uf2-rs -d"
+# With a debug probe on the (unpopulated) SWD header J2 instead:
+# runner = "probe-rs run --chip RP2040"
+linker = "flip-link"
+
+[build]
+target = "thumbv6m-none-eabi"
+
+[env]
+DEFMT_LOG = "info"
+KEYBOARD_TOML_PATH = { value = "keyboard.toml", relative = true }

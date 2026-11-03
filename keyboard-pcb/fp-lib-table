@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SSP_Wedge")(type "KiCad")(uri "${KIPRJMOD}/lib/SSP_Wedge.pretty")(options "")(descr "Seven Swords Wedge original footprints"))
+)
